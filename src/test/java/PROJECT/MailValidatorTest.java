@@ -13,6 +13,5 @@ public class MailValidatorTest {
         Assertions.assertFalse(MailValidator.validate("test@mail"));
         Assertions.assertFalse(MailValidator.validate("test@mail."));
         Assertions.assertFalse(MailValidator.validate(""));
-
     }
 }
